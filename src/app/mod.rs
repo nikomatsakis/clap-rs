@@ -20,13 +20,13 @@ use std::result::Result as StdResult;
 use yaml_rust::Yaml;
 
 // Internal
-use app::help::Help;
-use app::parser::Parser;
-use args::{AnyArg, Arg, ArgGroup, ArgMatcher, ArgMatches, ArgSettings};
-use errors::Result as ClapResult;
+use crate::app::help::Help;
+use crate::app::parser::Parser;
+use crate::args::{AnyArg, Arg, ArgGroup, ArgMatcher, ArgMatches, ArgSettings};
+use crate::errors::Result as ClapResult;
 pub use self::settings::AppSettings;
-use completions::Shell;
-use map::{self, VecMap};
+use crate::completions::Shell;
+use crate::map::{self, VecMap};
 
 /// Used to create a representation of a command line program and all possible command line
 /// arguments. Application settings are set using the "builder pattern" with the

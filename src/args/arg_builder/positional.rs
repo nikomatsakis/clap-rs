@@ -7,10 +7,10 @@ use std::ffi::{OsStr, OsString};
 use std::mem;
 
 // Internal
-use Arg;
-use args::{AnyArg, ArgSettings, Base, DispOrder, Valued};
-use INTERNAL_ERROR_MSG;
-use map::{self, VecMap};
+use crate::Arg;
+use crate::args::{AnyArg, ArgSettings, Base, DispOrder, Valued};
+use crate::INTERNAL_ERROR_MSG;
+use crate::map::{self, VecMap};
 
 #[allow(missing_debug_implementations)]
 #[doc(hidden)]

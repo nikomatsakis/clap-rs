@@ -6,9 +6,9 @@ use std::ops::Deref;
 use std::mem;
 
 // Internal
-use args::{ArgMatches, MatchedArg, SubCommand};
-use args::AnyArg;
-use args::settings::ArgSettings;
+use crate::args::{ArgMatches, MatchedArg, SubCommand};
+use crate::args::AnyArg;
+use crate::args::settings::ArgSettings;
 
 #[doc(hidden)]
 #[allow(missing_debug_implementations)]

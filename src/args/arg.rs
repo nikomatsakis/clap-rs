@@ -10,11 +10,11 @@ use std::env;
 
 #[cfg(feature = "yaml")]
 use yaml_rust::Yaml;
-use map::VecMap;
+use crate::map::VecMap;
 
-use usage_parser::UsageParser;
-use args::settings::ArgSettings;
-use args::arg_builder::{Base, Switched, Valued};
+use crate::usage_parser::UsageParser;
+use crate::args::settings::ArgSettings;
+use crate::args::arg_builder::{Base, Switched, Valued};
 
 /// The abstract representation of a command line argument. Used to set all the options and
 /// relationships that define a valid argument for the program.

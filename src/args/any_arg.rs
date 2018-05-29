@@ -4,9 +4,9 @@ use std::fmt as std_fmt;
 use std::ffi::{OsStr, OsString};
 
 // Internal
-use args::settings::ArgSettings;
-use map::{self, VecMap};
-use INTERNAL_ERROR_MSG;
+use crate::args::settings::ArgSettings;
+use crate::map::{self, VecMap};
+use crate::INTERNAL_ERROR_MSG;
 
 #[doc(hidden)]
 pub trait AnyArg<'n, 'e>: std_fmt::Display {

@@ -1,8 +1,8 @@
 // Internal
-use INTERNAL_ERROR_MSG;
-use args::Arg;
-use args::settings::ArgSettings;
-use map::VecMap;
+use crate::INTERNAL_ERROR_MSG;
+use crate::args::Arg;
+use crate::args::settings::ArgSettings;
+use crate::map::VecMap;
 
 #[derive(PartialEq, Debug)]
 enum UsageToken {

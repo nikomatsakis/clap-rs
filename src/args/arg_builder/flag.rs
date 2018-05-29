@@ -7,9 +7,9 @@ use std::ffi::{OsStr, OsString};
 use std::mem;
 
 // Internal
-use Arg;
-use args::{AnyArg, ArgSettings, Base, DispOrder, Switched};
-use map::{self, VecMap};
+use crate::Arg;
+use crate::args::{AnyArg, ArgSettings, Base, DispOrder, Switched};
+use crate::map::{self, VecMap};
 
 #[derive(Default, Clone, Debug)]
 #[doc(hidden)]

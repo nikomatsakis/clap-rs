@@ -6,9 +6,9 @@ use std::ffi::{OsStr, OsString};
 use std::mem;
 
 // Internal
-use args::{AnyArg, Arg, ArgSettings, Base, DispOrder, Switched, Valued};
-use map::{self, VecMap};
-use INTERNAL_ERROR_MSG;
+use crate::args::{AnyArg, Arg, ArgSettings, Base, DispOrder, Switched, Valued};
+use crate::map::{self, VecMap};
+use crate::INTERNAL_ERROR_MSG;
 
 #[allow(missing_debug_implementations)]
 #[doc(hidden)]
